@@ -1,6 +1,3 @@
-import UIKit
-import PlaygroundSupport
-
 func confirmEnding(str: String, target: String) -> Bool {
     return str.components(separatedBy: " ").last!.contains(target)
 }
